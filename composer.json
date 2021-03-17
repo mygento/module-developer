@@ -1,7 +1,7 @@
 {
   "name": "mygento/module-developer",
   "type": "magento2-module",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "OSL-3.0",
   "homepage": "https://github.com/mygento/module-developer",
   "description": "Mygento Developer Module",
@@ -23,7 +23,7 @@
     "mygento"
   ],
   "require": {
-    "magento/module-deploy": "~100.3.1"
+    "magento/module-deploy": "~100.4.2"
   },
   "require-dev": {
     "mygento/coding-standard": "~2.13.3",
