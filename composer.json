@@ -23,7 +23,7 @@
     "mygento"
   ],
   "require": {
-    "magento/module-deploy": "~100.4.*"
+    "magento/module-deploy": "100.4.*"
   },
   "require-dev": {
     "mygento/coding-standard": "~2.14.0-beta3",
