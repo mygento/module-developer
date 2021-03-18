@@ -30,6 +30,7 @@
     "vimeo/psalm": "3.x-dev"
   },
   "minimum-stability": "RC",
+  "prefer-stable": true,
   "autoload": {
     "files": [
       "registration.php"
