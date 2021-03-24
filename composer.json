@@ -26,8 +26,7 @@
     "magento/module-deploy": "100.4.*"
   },
   "require-dev": {
-    "mygento/coding-standard": "~2.14.0-beta3",
-    "vimeo/psalm": "3.x-dev"
+    "mygento/coding-standard": "~2.14.0-beta3"
   },
   "minimum-stability": "RC",
   "prefer-stable": true,
