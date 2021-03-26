@@ -1,6 +1,4 @@
 grumphp:
-    git_dir: .
-    bin_dir: vendor/bin
     tasks:
         composer:
             no_check_lock: true
@@ -19,7 +17,6 @@ grumphp:
         phpcs:
             warning_severity: null
         xmllint:
-        psalm:
         phpstan:
             autoload_file: 'vendor/mygento/coding-standard/stan/autoload.php'
             ignore_patterns: [ 'Test' ]
