@@ -1,21 +1,20 @@
 {
   "name": "mygento/module-developer",
   "type": "magento2-module",
-  "version": "2.4.0",
   "license": "OSL-3.0",
   "homepage": "https://github.com/mygento/module-developer",
   "description": "Mygento Developer Module",
   "authors": [
     {
       "name": "Nikita Tarasov",
-      "email": "nikita@mygento.net",
-      "homepage": "http://www.mygento.net/",
+      "email": "nikita@mygento.com",
+      "homepage": "https://www.mygento.com/",
       "role": "Developer"
     },
     {
       "name": "Mygento",
-      "email": "connect@mygento.net",
-      "homepage": "https://www.mygento.ru/"
+      "email": "hello@mygento.com",
+      "homepage": "https://www.mygento.com/"
     }
   ],
   "keywords": [
@@ -26,9 +25,8 @@
     "magento/module-deploy": "100.4.*"
   },
   "require-dev": {
-    "mygento/coding-standard": "~2.14.0-beta3"
+    "mygento/coding-standard": "~2.14.0"
   },
-  "minimum-stability": "RC",
   "prefer-stable": true,
   "autoload": {
     "files": [
@@ -43,5 +41,12 @@
       "type": "composer",
       "url": "https://repo.magento.com"
     }
-  ]
+  ],
+  "config": {
+    "allow-plugins": {
+      "phpro/grumphp": true,
+      "symfony/flex": false,
+      "magento/composer-dependency-version-audit-plugin": false
+    }
+  }
 }
